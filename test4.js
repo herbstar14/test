@@ -26,9 +26,12 @@ var obj = {
     } //end obj
 
 obj.anotherobj.lastname = "herbst"
+obj.schoolnumber = 123456
+
 //below is us calling different parts of this weird object we just made 
 console.log(obj.name)
 console.log(obj.etc())
+console.log(obj.schoolnumber)
 
 
 
